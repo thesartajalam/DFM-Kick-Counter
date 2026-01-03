@@ -139,11 +139,10 @@ package-lock.json
 * Focus was kept on clean logic, maintainability, and correct data handling
 * The project follows a simple and readable structure suitable for a small production-ready feature
 
----
 
 ## Author
 
-**Sartaj Alam**
+***Sartaj Alam***
+
 React Native Developer
 
-```
