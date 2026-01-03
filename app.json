@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "FetalMovementTracker",
-    "slug": "FetalMovementTracker",
+    "name": "DFM Kick Counter",
+    "slug": "dfm-kick-counter",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/babyicon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -17,13 +17,20 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/babyicon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.thesartajalam.dfmkickcounter"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-asset"],
+    "extra": {
+      "eas": {
+        "projectId": "afe38c56-3824-4ea0-b2f0-e867238e0df5"
+      }
     }
   }
 }

@@ -1,20 +1,26 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Asset } from "expo-asset";
+import { StyleSheet } from "react-native";
+import AppNavigator from "./navigation/AppNavigator";
+import { useEffect } from "react";
+import { StatusBar } from "expo-status-bar";
 
 export default function App() {
+  useEffect(() => {
+    Asset.loadAsync([require("./assets/CounterScreenBackground.png")]);
+  }, []);
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <>
+      <StatusBar style="dark" />
+      <AppNavigator />
+    </>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
