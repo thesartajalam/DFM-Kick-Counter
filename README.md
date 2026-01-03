@@ -55,8 +55,8 @@ Each session is saved in the following format:
 ```js
 {
   id: string,
-  durationInSeconds: number,
-  createdAt: string
+  duration: number,
+  createdAt: string,
 }
 
 ````
@@ -97,7 +97,8 @@ You can run the app using Expo Go or an Android emulator.
 
 ## Android APK
 
-An installable Android APK has been generated using **Expo EAS Build** and is included in the submission.
+An installable Android APK has been generated using **Expo EAS Build** .
+https://expo.dev/accounts/thesartajalam/projects/dfm-kick-counter/builds/3f5e0c32-4f86-4587-9344-cb313d1198e8
 
 ---
 
