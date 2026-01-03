@@ -97,7 +97,7 @@ You can run the app using Expo Go or an Android emulator.
 
 ## Android APK
 
-An installable Android APK was generated using **Expo EAS Build** .
+An installable Android APK was generated using **Expo EAS Build**.
 [Download and Intall APK](https://expo.dev/accounts/thesartajalam/projects/dfm-kick-counter/builds/3f5e0c32-4f86-4587-9344-cb313d1198e8)
 
 ---
@@ -105,7 +105,8 @@ An installable Android APK was generated using **Expo EAS Build** .
 ## Screen Recording
 
 A screen recording demonstrating the full app flow (Home → Counter → Save → Persistence) is included with the submission.
-[View Screen Recording](https://drive.google.com/file/d/1L9vhshRz0TYhOnuATxQA3TSS7AuQhXJ4/view?usp=sharing)
+
+[View Screen Recording](https://drive.google.com/file/d/1ZkSkmuQK5JJ7TOFZbRGp5ZfDqcz-FrCZ/view?usp=sharing)
 
 ---
 
