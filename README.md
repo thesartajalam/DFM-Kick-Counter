@@ -58,3 +58,92 @@ Each session is saved in the following format:
   durationInSeconds: number,
   createdAt: string
 }
+
+````
+
+* `duration` stores the exact recorded time in seconds which is then formatted in minutes:seconds.
+* Data is serialized and persisted on the device
+* Sessions are sorted by most recent first on load
+
+---
+
+## Assumptions
+
+* Timer starts automatically when the Counter screen is opened
+* A session is saved only when the user taps the **Save** button
+* Navigating back without saving discards the session
+* The article section on the Home screen is static, as mentioned in the assignment
+* The app works completely offline and does not use any backend services
+
+---
+
+## Running the Project Locally
+
+### Prerequisites
+
+* Node.js
+* Expo CLI
+
+### Steps
+
+```bash
+npm install
+npx expo start
+```
+
+You can run the app using Expo Go or an Android emulator.
+
+---
+
+## Android APK
+
+An installable Android APK has been generated using **Expo EAS Build** and is included in the submission.
+
+---
+
+## Screen Recording
+
+A screen recording demonstrating the full app flow (Home → Counter → Save → Persistence) is included with the submission.
+
+---
+
+## Folder Structure (High-Level)
+
+```txt
+.expo/
+assets/
+node_modules/
+
+src/
+ ├─ components/
+ ├─ navigation/
+ ├─ screens/
+ ├─ storage/
+ └─ utils/
+
+.gitignore
+App.js
+app.json
+eas.json
+index.js
+package.json
+package-lock.json
+
+```
+
+---
+
+## Notes
+
+* No external UI libraries were used
+* Focus was kept on clean logic, maintainability, and correct data handling
+* The project follows a simple and readable structure suitable for a small production-ready feature
+
+---
+
+## Author
+
+**Sartaj Alam**
+React Native Developer
+
+```
